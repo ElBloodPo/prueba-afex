@@ -11,15 +11,14 @@ const port = parseInt(process.env.PORT, 10) || 8081;
 const YOUTUBE_API = "https://www.googleapis.com/youtube/v3/videos";
 const API_KEY = "AIzaSyDXGVuf55eTTL8Z3OBvKnTYxWIGFual9Eo";
 
-// Set up the express app
+
 const app = express();
 
-// Log requests to the console.
 app.use(logger("dev"));
 
 app.use(cors())
 
-// Parse incoming requests data
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -125,7 +124,6 @@ function getActualDateTime(){
     let min = date.getMinutes();
     let seg = date.getSeconds();
 
-    // prints date & time in YYYY-MM-DD format
     return ano + "-" + mes + "-" + dia + " " + hrs + ":" + min + ":" + seg;
 }
 
@@ -146,25 +144,5 @@ function parseDuracion(duracion) {
     if(duracion_parsed.substring(duracion_parsed.length - 1) == ":") duracion_parsed += "00";
     return duracion_parsed;
 }
-
-
-/* server.listen(3000, () => {
-    const sql = "CREATE TABLE MESSAGE (message VARCHAR(255))";
-    con.query(sql, function (err, result) {
-      if (err) throw err;
-      console.log("Table created");
-    });
-    return "Table Created"
-}); */
-
-
-
-
-
-// No need for aws lambda deployment
-
-/* app.set("port", port); */
-/* server.listen(port); */
-
 
 module.exports.server = sls(app);

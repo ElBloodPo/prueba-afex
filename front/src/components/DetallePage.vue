@@ -32,7 +32,8 @@
   onMounted(() => {
     modalInstance.value = new Modal(document.getElementById('myModal'), {
       target: "body",
-      backdrop: 'static'
+      backdrop: 'static',
+      keyboard:false
     });
   });
   

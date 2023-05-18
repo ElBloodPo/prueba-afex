@@ -1,0 +1,205 @@
+.button-play {
+    background-color: #F44336;
+    color: white;
+    padding: 1.3rem;
+    border-radius: 100%;
+    box-shadow: 0rem 0.1rem 0.2rem 0.1rem #720b03bd;
+}
+
+.duracion {
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    right: 1.5rem;
+    bottom: -0.5rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.1rem 0.1rem 0.1rem #3c3c3c61;
+}
+
+.modal-detalle-title {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.modal-detalle-desc {
+    font-size: 0.8rem;
+    text-align: left;
+    height: 16rem;
+    margin-bottom: 0rem;
+    overflow-y: scroll;
+}
+
+.anadir input {
+    margin: auto 0px auto auto;
+    padding: 0.7rem;border: 0.1rem solid rgb(218, 218, 218);
+    font-size: 0.8rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    width: 70%;
+}
+
+.anadir button {
+    margin: auto auto auto 0px;
+    background-color: #1059c0;
+    color: white;
+    padding: 0.7rem 3.4rem;
+    font-size: 0.8rem;
+    border: 0.1rem solid #1059c0;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    width: 30%;
+}
+
+.eliminar {
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 0.7rem;
+    right: 1.5rem;
+    top: 0.5rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.1rem 0.1rem 0.1rem #3c3c3c61;
+}
+
+.m-confirmButton {
+    background-color: rgb(19, 106, 228)!important;
+    font-size: 0.8rem!important;
+    border: 0.1rem solid rgb(19,106,228)!important;
+    padding: 0.5rem 3rem!important;
+    border-radius: 0.4rem!important;
+    box-shadow: none!important;
+}
+  
+.m-cancelButton {
+background-color: rgb(255, 255, 255)!important;
+border: 0.1rem solid rgb(19, 106, 228)!important;
+font-size: 0.8rem!important;
+padding: 0.5rem 3rem!important;
+color: rgb(19, 106, 228)!important;
+border-radius: 0.4rem!important;
+box-shadow: none!important;
+}
+
+.m-title {
+    font-weight: 500!important;
+    margin-top: 1.4rem!important;
+    margin-bottom: 0rem!important;
+    font-size: 1rem!important;
+    text-align: left!important;
+}
+
+.m-dialog {
+padding: 0 1.3rem 1rem 1.3rem!important;
+}
+
+.m-actions {
+margin: 1.25em 1.1rem 0 auto!important;
+}
+
+.m-closeButton {
+color: black!important;
+    font-size: 2rem!important;
+    margin-right: 0.6rem!important;
+    margin-bottom: -5rem!important;
+    margin-top: 1rem!important;
+}
+
+.cursor-pointer {
+cursor:pointer;
+}
+
+.arrow-right {
+    width: 0px;
+    height: 0px;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    border-left: 1.9rem solid white;
+    position: relative;
+    left:0.3rem;
+}
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+overflow: auto!important;
+}
+
+.main {
+    padding: 0rem 1.7rem;
+    padding-top: 0rem;
+}
+
+.anadir button {
+    margin: auto auto auto 0px;
+    background-color: #1059c0;
+    color: white;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.8rem;
+    border: 0.1rem solid #1059c0;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    width: 30%;
+}
+
+@media (min-width: 576px) { 
+    .main {
+        padding: 3rem 3rem;
+        padding-top: 0rem;
+    }
+
+    .anadir button {
+        margin: auto auto auto 0px;
+        background-color: #1059c0;
+        color: white;
+        padding: 0.7rem 3.4rem;
+        font-size: 0.8rem;
+        border: 0.1rem solid #1059c0;
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) { 
+    .main {
+        padding: 1rem 3rem;
+        padding-top: 0rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    .main {
+        padding: 5rem 12rem;
+        padding-top:0rem;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .main {
+        padding: 5rem 12rem;
+        padding-top:0rem;
+    }
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #1059c0 #b1bccd;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #b1bccd;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #1059c0;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+  }
