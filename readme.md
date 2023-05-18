@@ -4,6 +4,10 @@ Un álbum online de videos de youtube, donde podrás pegar links de videos y vis
 
 \# NodeJS (express) - AWS Lambda - AWS RDS MYSQL - VUE 3 - Serverless - Bootstrap - Vue 3 Fetch - Youtube API
 
+# Link de prueba
+
+https://prueba-afex-sebastian-alvarado.netlify.app/
+
 # SCREENSHOTS
 
 ------
